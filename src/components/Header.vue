@@ -7,13 +7,16 @@
       <div class="collapse navbar-collapse" id="navbarsExample04">
         <ul class="navbar-nav mr-auto text text-primary">
           <li class="nav-item active px-5">
-            <a class="nav-link text-primary" href="#" >Home <span class="sr-only">(current)</span></a>
+            <!--<a class="nav-link text-primary"  >Home <span class="sr-only">(current)</span></a>-->
+            <router-link to="/" class="">Home</router-link>
           </li>
           <li class="nav-item px-5">
-            <a class="nav-link text-primary" href="#">Carreras</a>
+            <!--<a class="nav-link text-primary" >Carreras</a>-->
+            <router-link to="/carreras">Carreras</router-link>
           </li>
           <li class="nav-item px-5">
-            <a class="nav-link disabled text-primary" href="#">Contacto</a>
+            <!--<a class="nav-link disabled text-primary" >Contacto</a>-->
+            <router-link to="/contact">Contact</router-link>
           </li>
         </ul>
       </div>

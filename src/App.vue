@@ -1,8 +1,7 @@
 <template>
   <div class="container-fluid">
-    <app-header></app-header>
-    <app-carreras></app-carreras>
-    <app-contact></app-contact>
+      <app-header></app-header>
+      <router-view></router-view>
   </div>
 
 </template>
